@@ -18,7 +18,7 @@ function App() {
         console.log(response.data);
         setApidata(response.data);
       }catch(e){
-        console.error(e);
+        alert('failed to fetch data');
       }
     }
 
